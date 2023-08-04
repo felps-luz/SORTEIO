@@ -1,0 +1,73 @@
+/*reset css*/
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    /*fim do reset*/
+    .container{
+        background-image: linear-gradient(180deg , #0e0e0e,#a10000);
+        height: 100%;
+        display: flex;
+        width: 100%;
+        padding: 200px 330px;
+        color: white;
+
+    }
+    .blaze{
+        background-color: #1a1818;
+        height: 430px;
+        width: 800px;
+        border-radius: 8px;
+        text-align: center;
+    }
+    .texto{
+        color: white;
+        font: 700 30px 'lucida',sans-serif ;
+        margin-top: 25px;
+    }
+    button{
+        background-color: #292929;
+        color: white;
+        width: 90px;
+        height: 30px;
+        border-radius: 6px;
+        font: 300 15px 'lucida',sans-serif ;
+    }
+    .input{
+        display: flex;
+        margin: 0 200px;
+        font: 300 20px 'lucida',sans-serif ;
+     }
+     .botao{
+        margin-top: 30px;
+     }
+     #resultado{
+        font: 300 15px 'lucida',sans-serif ;
+        margin-top: 30px;
+     }
+     .conteudo{
+        margin-top: 100px;
+     }
+     label{
+        color: #989898;
+     }
+     .input{
+        border: 0;
+        border-bottom: 2px solid rgb(200,200,200);
+     }
+     input{
+        background-color: #1a1818;
+        color: white;
+        text-align: center;
+        outline: 0;
+     }
