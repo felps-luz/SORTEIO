@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,500;10..48,600;10..48,700&family=Open+Sans&display=swap');
+/*reset css*/
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+a{
+        text-decoration: none;
+}
+img {
+        width: 100%;
+        height: auto;
+}
+/*fim do reset*/
+
+body{
+        background-image: url(img/dogEm4k.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        bottom: 0;
+        overflow: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.container{
+        margin-top: 6.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 31.25rem;
+        flex-direction: column;
+}
+h2{
+        font-family: 'Bricolage Grotesque', sans-serif;
+        font-size: 3em;
+        color: rgb(255, 68, 0);
+}
+p{
+        font-family: 'Bricolage Grotesque', sans-serif;
+        font-size: 50px;
+        color: rgb(255, 68, 0);
+}
+label{
+        font-family: 'Bricolage Grotesque', sans-serif;
+        font-size: 50px;
+        color: rgb(255, 68, 0);
+}
+textarea{
+        border-radius: 5px;
+        resize: none;
+        height: 100px;
+        width: 300px;
+        background-color: rgba(255, 255, 255, 0.533);
+}
+textarea:hover{
+        background-color: rgb(255, 255, 255);   
+        transition: 0.6s; 
+}
+textarea:not(:hover){ 
+        transition: 0.6s; 
+}
+.sortear{
+        font-family: 'Bricolage Grotesque', sans-serif;
+        font-size: 20px;
+        color: rgb(255, 68, 0); 
+        width: 100px;
+        border-radius: 5px;
+        background-color: rgb(255, 213, 0) ;
+        margin-top: 20px;
+}
+.sortear:hover{
+        height: 37px;
+        width: 130px;
+        transition: 0.8s;
+        background-color: rgba(255, 213, 0, 0.802) ;
+}
+.sortear:not(:hover){
+        transition: 0.8s;
+}
+.sair{
+        font-family: 'Bricolage Grotesque', sans-serif;
+        font-size: 25px;
+        color: rgb(255, 68, 0);
+}
+.sair:hover{
+        font-size: 30px;
+        transition: 0.7s;
+}
+.sair:not(:hover){
+        transition: 0.7s;
+}

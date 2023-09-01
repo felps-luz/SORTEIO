@@ -1,30 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BlazeDog's</title>
+    <link rel="shortcut icon" href="img/Blaze.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h2>BLAZE</h2>
-
-        <div class="entrada">
-            <label for="min">minimo:</label>
-            <input type="number" id="min" name="min">
-        </div>
-        <div class="entrada">
-            <label for="max">maximo:</label>
-            <input type="number" id="max" name="max">
-        </div>
-
-        <button id="sortear">Tenta aí</button>
-
-        <div id="resultado"></div>
-    </div>
-
-
-
-    <script src="script.js"></script>
+    <main class="app">
+        <section class="sorteio">
+            <div class="container">
+                <h2>QUAL CACHORRO VOCÊ GANHOU?</h2>
+                <div class="linha"></div>
+                <div class="formulario container">
+                    <label for="entradaDogs">Adicione as raças!</label>
+                    <textarea id="entradaDogs" placeholder="Adicione as raças separados por virgula. ex(Mastim Tibetano,Akita)" onclick="clicar()">
+                    </textarea>
+                    <button class="sortear">SORTEAR</button>
+                </div>
+                <div class="resultado">
+                    <p>Seu cachorro é:</p>
+                </div>
+                <div class="fora">
+                    <a href="Blaze.html" class="sair">Ir para o Sorteio de Número</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+    
 </body>
 </html>
