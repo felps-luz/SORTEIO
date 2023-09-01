@@ -71,3 +71,15 @@
         text-align: center;
         outline: 0;
      }
+     #dog{
+        font: 700 20px 'lucida',sans-serif ;
+        color: rgb(255, 0, 0);
+     }
+     #dog:hover{
+        font-size: 1.5em;
+        transition: 0.7s;
+        
+     }
+     #dog:not(:hover){
+        transition: 0.7s;
+     }
